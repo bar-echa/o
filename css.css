@@ -9,14 +9,15 @@
     font-family:'poppins, sans-serif';
 }
 :root{
-    ---bg-color :#1f242d;
-    ---second-bg-color:#323946;
-    --text-color:#fff;
-    --main-color:#0ef;
+    ---bg-color :#3a5555;
+    ---second-bg-color:#b8cac3;
+    --text-color:#000000;
+    --main-color:rgba(61, 71, 22, 0.76);
 }
 html{
     font-size:62.5%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body{
     background: var(---bg-color);
